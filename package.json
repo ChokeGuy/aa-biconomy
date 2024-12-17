@@ -1,0 +1,26 @@
+{
+    "name": "biconomy-sa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^22.10.2",
+        "tslib": "^2.8.1"
+    },
+    "dependencies": {
+        "@biconomy/account": "^4.5.7",
+        "biconomy-sa": "file:",
+        "dotenv": "^16.4.7",
+        "ethers": "^6.13.4",
+        "tsconfig-paths": "^4.2.0",
+        "viem": "^2.21.55",
+        "winston": "^3.17.0",
+        "winston-daily-rotate-file": "^5.0.0"
+    }
+}
